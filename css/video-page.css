@@ -1,6 +1,7 @@
-.container {
-  width: 560px;
-  height: 315px;
+/*-----------------------------------------------------------------------------*/
+.video-container {
+  width: 80%;
+  height: 400px;
   position: relative;
   margin: 0 auto;
   padding: 20px;
@@ -35,7 +36,9 @@
 }
 
 .overlay-pwd-protected-name {
-  margin: 40px 0 20px 170px;
+  position: relative;
+  /*margin: 40px 0 20px 170px;*/
+  margin-top: 50px;
   color: white;
   text-align: center;
   font-size: 80px;
@@ -49,13 +52,11 @@
   left: 0;
   right: 0;
   bottom: 85px;
-  padding: 0 122px;
   /*border: 2px dashed red;*/
 }
 
 .overlay-pwd-protected-text {
   margin: auto;
-  margin: 0 0 20px 75px;
   color: white;
   text-align: center;
   font-size: 21px;
@@ -64,18 +65,17 @@
 }
 
 .overlay-pwd-form {
-  display: flex;
+  margin-top: 20px;
 }
 
 .text-form {
-  height: 35px;
+  height: 40px;
   width: 170px;
   font-size: 25px;
 }
 
 .submit-btn {
-  margin: auto;
-  margin-left: 20px;
+  margin: 5px 0 0 20px;
   background-color: #2aa3dd;
   border: none;
   color: white;
