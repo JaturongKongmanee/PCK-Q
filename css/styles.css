@@ -36,7 +36,7 @@ h5 {
   margin-bottom: 0;
   /* background-color: #202121; */
   background-color: rgb(64, 76, 96);
-  z-index: 1;
+  z-index: 10;
   border: 0;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
@@ -187,7 +187,8 @@ tr:nth-child(even) {
   font-size: 15px;
 }
 #footer {
-  background-color: #202121;
+  /*background-color: #202121;*/
+  background-color: rgb(64, 76, 96);
   margin-bottom: 0px;
 }
 .contact-email,
