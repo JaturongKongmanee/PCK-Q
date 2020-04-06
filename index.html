@@ -30,7 +30,44 @@
               class="submit-btn"
               type="button"
               value="Watch Video"
-              onclick="checkPassword()"
+              onclick="checkPassword(this)"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="overlay-video">
+        <iframe
+          id="video"
+          src="https://bit.ly/3aKhwSd"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div id="overlay" class="container">
+      <div class="overlay-pwd stack-top" id="overlay-pwd">
+        <div class="overlay-pwd-protected-name">PCK-Q</div>
+        <div class="overlay-pwd-protected-wrap">
+          <div class="overlay-pwd-protected-text">Password Required</div>
+          <div class="overlay-pwd-form">
+            <input
+              class="text-form"
+              type="password"
+              placeholder="  Password"
+              id="pwd"
+              minlength="8"
+            />
+            <input
+              class="submit-btn"
+              type="button"
+              value="Watch Video"
+              onclick="checkPassword(this)"
             />
           </div>
         </div>

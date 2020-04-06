@@ -1,10 +1,11 @@
-function checkPassword() {
+function checkPassword(ele) {
+  console.log(ele);
   let nonce = "pck-q";
   let predefinedHashed =
     "9e95549bf2ae38e8620821490bfa70ebada81abe541c9ee6a52624f884f349dd";
   console.log("checking ...");
 
-  let pwd = document.getElementById("pwd").value;
+  let pwd = ele.previousSibling.previousElementSibling.value;
   console.log("PWD: ", pwd);
   document.getElementById("demo0").innerHTML = pwd;
   document.getElementById("demo1").innerHTML = pwd + nonce;
@@ -15,10 +16,10 @@ function checkPassword() {
   document.getElementById("demo2").innerHTML = hashed;
 
   if (hashed == predefinedHashed) {
-    let overlay = document.getElementById("overlay-pwd");
-    overlay.style.display = "none";
+    let parentNode = ele.parentNode.parentNode.parentNode;
+    parentNode.style.display = "none";
   } else {
-    let placeHolder = document.getElementById("pwd");
+    let placeHolder = ele.previousSibling.previousElementSibling;
     placeHolder.value = "";
     placeHolder.placeholder = "  Wrong password";
     console.log("wrong password");
