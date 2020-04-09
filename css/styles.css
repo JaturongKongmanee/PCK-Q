@@ -268,3 +268,19 @@ tr:nth-child(even) {
 .jumbotron h1 {
   margin-top: 0px;
 }
+
+.speaker h3 {
+  color: #2aa3dd;
+  font-weight: bold;
+}
+
+.speaker h4 {
+  color: #444 !important;
+  font-weight: bold;
+}
+
+.speaker h5 {
+  text-align: justify;
+  text-indent: 30px;
+  font-weight: bold;
+}

@@ -1,7 +1,9 @@
 /*-----------------------------------------------------------------------------*/
 .video-container {
-  width: 80%;
-  height: 400px;
+  /*width: 80%;
+  height: 400px;*/
+  width: 640px;
+  height: 360px;
   position: relative;
   margin: 0 auto;
   padding: 20px;

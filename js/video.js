@@ -7,13 +7,13 @@ function checkPassword(ele) {
 
   let pwd = ele.previousSibling.previousElementSibling.value;
   console.log("PWD: ", pwd);
-  document.getElementById("demo0").innerHTML = pwd;
-  document.getElementById("demo1").innerHTML = pwd + nonce;
+  /*document.getElementById("demo0").innerHTML = pwd;
+  document.getElementById("demo1").innerHTML = pwd + nonce;*/
 
   /*Enccryption*/
   let hashed = CryptoJS.SHA256(pwd + nonce);
   console.log("Hashed pwd: ", hashed);
-  document.getElementById("demo2").innerHTML = hashed;
+  /*document.getElementById("demo2").innerHTML = hashed;*/
 
   if (hashed == predefinedHashed) {
     let parentNode = ele.parentNode.parentNode.parentNode;
@@ -26,17 +26,17 @@ function checkPassword(ele) {
   }
 }
 
-window.onload = function() {
+window.onload = function () {
   document.addEventListener(
     "contextmenu",
-    function(e) {
+    function (e) {
       e.preventDefault();
     },
     false
   );
   document.addEventListener(
     "keydown",
-    function(e) {
+    function (e) {
       //document.onkeydown = function(e) {
       // "I" key
       if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
