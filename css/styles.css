@@ -116,6 +116,15 @@ h5 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.header-publication {
+  background-image: url("../assets/mock_demo/publication_page.jpg");
+  height: 430px;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .max-width {
   max-width: 1200px;
 }
