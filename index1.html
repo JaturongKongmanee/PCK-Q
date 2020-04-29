@@ -1,103 +1,299 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <title>The PCK-Q website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="The PCK-Q website">
+    <meta name="keywords" content="Education, TTU">
+    <meta name="author" content="Jaturong Kongmanee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/video-page.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli">
+    <!--<link rel="icon" type="image/png" href="assets/images/logos/dp_winter_school_2018_logo2.png" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/sha256.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/styletest.css" />
-  </head>
+</head>
 
-  <body>
-    <!--<iframe width="420" height="345" src="https://cloud.swivl.com/v/7fcc08ca8e6283ef7433c20184409ecb"></iframe>
-
-<iframe src="https://cloud.swivl.com/i/c74c2aea9cd6bd93c6317f63f848cba3" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<iframe src="https://cloud.swivl.com/i/c74c2aea9cd6bd93c6317f63f848cba3" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen  allowfullscreen></iframe>-->
-
-    <!--<iframe src="https://cloud.swivl.com/i/90d2aba6ef293b88b8f9438f7c1fcc71" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-    <div id="overlay" class="video-container">
-      <div class="overlay-pwd stack-top" id="overlay-pwd">
-        <div class="overlay-pwd-protected-name">PCK-Q</div>
-        <div class="overlay-pwd-protected-wrap">
-          <div class="overlay-pwd-protected-text">Password Required</div>
-          <div class="overlay-pwd-form">
-            <input
-              class="text-form"
-              type="password"
-              placeholder="  Password"
-              id="pwd"
-              minlength="8"
-            />
-            <input
-              class="submit-btn"
-              type="button"
-              value="Watch Video"
-              onclick="checkPassword(this)"
-            />
-          </div>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>                <a class="navbar-brand" href="#myPage"> <img src="assets/mock_demo/texas-tech-logo-png-6.png" alt="Logo"> </a></div>
+            <div
+                class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="about-nav" href="#about">ABOUT</a></li>
+                    <li><a class="program-nav" href="#demo">DEMO</a></li>
+                    <li><a class="speakers-nav" href="#speakers">TEAM</a></li>
+                    <li><a class="organizer-nav" href="#sponsors-organizers">SPONSOR</a></li>
+                    <li><a class="location-nav" href="https://www.pck-q-ttu.com/video.html">VIDEOS</a></li>
+                    <li><a class="location-nav" href="https://www.pck-q-ttu.com/publication.html">PUBLICATIONS</a></li>
+                    <li><a class="location-nav" href="#location">LOCATION</a></li>
+                    
+                </ul>
         </div>
-      </div>
-
-      <div class="overlay-video">
-        <iframe
-          id="video"
-          src="https://bit.ly/3aKhwSd"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+        </div>
+    </nav>
+    <div class="header jumbotron text-center">
+        <h1 class="col-sm-12 cover-text">Measuring and improving Pedagogical Content Knowledge of student assistants in introductory physics classes</h1>
+        <!--<p class="date-location-info">This is the design of PCK-Q website</p>-->
+        <!-- <p id="countdown-timer" hidden>35 days</p> -->
+    </div>
+    <div class="container-fluid max-width" hidden>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="about-school text-center">LIVE</h2><br>
+                <div class="row">
+                    <iframe width="100%" height="500px" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <br />
-    <br />
-
-    <div id="overlay" class="video-container">
-      <div class="overlay-pwd stack-top" id="overlay-pwd">
-        <div class="overlay-pwd-protected-name">PCK-Q</div>
-        <div class="overlay-pwd-protected-wrap">
-          <div class="overlay-pwd-protected-text">Password Required</div>
-          <div class="overlay-pwd-form">
+    <div
+        id="demo"
+        class="container-fluid text-center max-width"
+        style="padding: 0px 40px; margin-top: 30px;"
+    >
+        <div
+        class="container-fluid max-width"
+        style="padding: 30px 40px; margin-bottom: 0px;"
+        >
+        <div class="row">
+            <div class="col-sm-12"></div>
             <input
-              class="text-form"
-              type="password"
-              placeholder="  Password"
-              id="pwd"
-              minlength="8"
+            type="text"
+            class="search search-box"
+            placeholder="Anything you want to search . . . "
             />
-            <input
-              class="submit-btn"
-              type="button"
-              value="Watch Video"
-              onclick="checkPassword(this)"
-            />
-          </div>
         </div>
-      </div>
-
-      <div class="overlay-video">
-        <iframe
-          id="video"
-          src="https://bit.ly/3aKhwSd"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+        </div>
     </div>
 
-    <br />
-    <br />
-    <strong><label>Original Password:</label></strong>
-    <span id="demo0"></span>
-    <br />
-    <br />
-    <strong><label>Password + Nonce:</label></strong>
-    <span id="demo1"></span>
-    <br />
-    <br />
-    <strong><label>Hashed Password:</label></strong>
-    <span id="demo2"></span>
+    <div class="content">
 
+
+
+    <div id="about" class="container-fluid max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="about-school">Project Introduction</h2><br>
+                <h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">  
+                We propose the first stage of a program of research aiming to improve the training of Student Assistants (SA), which are composed of graduate teaching assistants and undergraduate learning assistants, in the context of inquiry-based introductory physics classes.  In stage one, which consists of three phases, we will design and validate an instrument to measure SAs’ Pedagogical Content Knowledge of questioning (PCK-Q) and then develop hierarchical linear models (HLM) to comprehensively describe the influence of SAs’ PCK-Q on college students’ conceptual understanding of physics and critical thinking skills. The project will also yield qualitative data suggesting effective strategies for SA training and SA-student interaction in an inquiry-oriented setting. In the first phase, we will examine SAs’ questions that stimulate active interaction or productive learning of students. In the first phase, we will capture videos of SAs interacting with students during classes of classic mechanics and electromagnetism. From the videos, we will identify scenarios where SAs either manage or fail to initiate active responses from students with questions, such as those expose student misconception or prompt ideas about lab design. Then we will convert some scenarios into open-ended questions as the first version of the PCK-Q test. In the second phase, we will administer PCK-Q Version 1 validated from Phase 1 with SAs and use their answers to develop options with which we will transform the open-ended into multiple-choice questions. The validated multiple-choice questions comprise the second version of the PCK-Q test. The process of developing and validating both versions of the PCK-Q test will also yield qualitative data that contribute to the assessment and adjustment of SA training strategies. In the third phase, we will use PCK-Q Version 2 to measure SAs’ PCK-Q and build HLMs how SAs’ PCK-Q account for college students’ conceptual understanding of introductory physics and critical thinking skills.
+Intellectual Merit. Reform in the teaching of college-level introductory physics has promoted a shift from lecturing and factual recitation to interactive learning and conceptual understanding, as embodied in the “inquiry method.” Increasing enrollment in physics (and other STEM) classes requires the services of large numbers of SAs. There is some evidence that SA programs promote student learning, but no understanding of the mechanism of this connection. It is assumed that SA programs aid in improving student thinking, but we lack evidence to support this assumption, or any determination of how this transfer occurs. We believe that SAs knowledge of PCK-Q is at the heart of what makes for successful SA support. Specifically, we hypothesize that SAs’ sophisticated levels of PCK-Q will enable them to improve their abilities to prompt student thinking and scaffold group interaction in inquiry-based classrooms. PCK and the training of SA are not new concepts. What is innovative about our approach is 1) developing both the open-ended and multiple-choice versions of an instrument that can validly and reliably assess SAs’ PCK-Q; and 2) building hierarchical linear models that contribute to a comprehensive understanding of the role of SAs’ PCK-Q in college students’ physics learning. Our proposed study will benefit the field of undergraduate physics instruction by adding new insights into how SAs may best serve student learning in introductory physics classrooms. Long-term benefits include increased efficiency and lower costs of physics education, and adaptions for use in other STEM fields.
+Broader Impacts. The proposed research will initially benefit physics instruction at Texas Tech University. The products from this research will be made available to physics instructors across the country, and the instrument can be modified for use in other STEM disciplines. A common strategy in universities nationwide is to decrease costs by using SAs to assist in providing STEM instruction. By monitoring the quality of SAs through our PCK-Q instrument, we have the potential to better prepare SAs to act as instructional leads in inquiry-based classrooms and enhance college-level physics and other STEM education throughout the United States.
+            </div>
+        </div>
+    </div>
+    <div id="demo" class="container-fluid text-center max-width">
+        <div class="container-fluid max-width">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="about-school text-center">DEMO VIDEOS</h2><br>
+                    <div class="row">
+                        <div id="overlay" class="video-container">
+                          <div class="overlay-pwd stack-top" id="overlay-pwd">
+                            <div class="overlay-pwd-protected-name">PCK-Q</div>
+                            <div class="overlay-pwd-protected-wrap">
+                              <div class="overlay-pwd-protected-text">
+                                Password Required
+                              </div>
+                              <div class="overlay-pwd-form">
+                                <input
+                                  class="text-form"
+                                  type="password"
+                                  placeholder="  Password"
+                                  id="pwd"
+                                  minlength="8"
+                                />
+                                <input
+                                  class="submit-btn"
+                                  type="button"
+                                  value="Watch Video"
+                                  onclick="checkPassword(this)"
+                                />
+                              </div>
+                            </div>
+                          </div>
+          
+                          <div class="overlay-video">
+                            <iframe
+                              id="video"
+                              src="https://cloud.swivl.com/i/90d2aba6ef293b88b8f9438f7c1fcc71"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen
+                            ></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <br />
+                      <div class="row">
+                        <div id="overlay" class="video-container">
+                          <div class="overlay-pwd stack-top" id="overlay-pwd">
+                            <div class="overlay-pwd-protected-name">PCK-Q</div>
+                            <div class="overlay-pwd-protected-wrap">
+                              <div class="overlay-pwd-protected-text">
+                                Password Required
+                              </div>
+                              <div class="overlay-pwd-form">
+                                <input
+                                  class="text-form"
+                                  type="password"
+                                  placeholder="  Password"
+                                  id="pwd"
+                                  minlength="8"
+                                />
+                                <input
+                                  class="submit-btn"
+                                  type="button"
+                                  value="Watch Video"
+                                  onclick="checkPassword(this)"
+                                />
+                              </div>
+                            </div>
+                          </div>
+          
+                          <div class="overlay-video">
+                            <iframe
+                              id="video"
+                              src="https://cloud.swivl.com/i/90d2aba6ef293b88b8f9438f7c1fcc71"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen
+                            ></iframe>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="speakers" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="speakers-text">Research Team</h2><br></div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="assets/mock_demo/man-people-pngrepo-com.png" alt="Professor Soo-Young Lee">
+                    <h3>Jianlan Wang</h3>
+                    <h4>Principal Investigator</h4>
+                    <h5>Dr. Wang is an assistant professor in the Department of Teacher Education at Texas Tech University. Dr. Wang has rich experience in designing, implementing, and researching inquiry-based and argumentation-leveraged science units from K to 8 and physics units from 9 to college. He has taught inquiry-oriented physics courses in both high school (AP physics) and college (introductory calculus-based physics). His work also involves reforming instructional methods courses for elementary and secondary science teacher candidates through the constructivist approach. Dr. Wang is skilled in both qualitative and quantitative research methods. His research foci at Texas Tech University include designing and evaluating a scaffolding approach to the knowledge construction of teacher candidates and building models of different kinds (e.g. hierarchical linear model) that connect the variables of educational reforms, teacher knowledge, teacher practice, and student performance.</h5>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="assets/mock_demo/man-people-pngrepo-com.png" alt="Professor Soo-Young Lee">
+                    <h3>Beth Thacker</h3>
+                    <h4>Co-Principal Investigator</h4>
+                    <h5>Dr. Thacker is an Associate Professor of Physics. She has most recently been working on course and curriculum development and assessment. She has developed a laboratory-based, inquiry-based curriculum (INQ) taught using Socratic questioning pedagogy and has done significant work investigating students’ qualitative and quantitative understanding of physics concepts in courses taught by traditional and non-traditional methods. She is presently working on the expansion of the INQ course to a larger classroom, including training of student assistants (SAs), and research on SA’s pedagogical content knowledge of questioning (PCK-Q), as well as a study of the thinking skills of INQ students. She is also researching the effectiveness of Augmented Reality (AR) on increasing students understanding of magnetism through 3-D visualization of magnetic fields enhanced by a 3-D AR interactive simulation. In addition, she has studied students understanding of topics in modern physics and quantum mechanics and has a recent interest in quantum computing.</h5>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="assets/mock_demo/man-people-pngrepo-com.png" alt="Professor Soo-Young Lee">
+                    <h3>Stephanie Hart</h3>
+                    <h4>Co-Principal Investigator </h4>
+                    <h5>Dr. Hart is the Director of the TTU OnRamps program, a dual enrollment initiative that gives high school students the opportunity to earn college credits in STEM courses. The OnRamps program trains teachers to implement inquiry-based instruction, peer instruction, and student-centered learning with college content in a high school classroom. Her background is in behavioral science and teacher education. Dr. Hart specializes in coaching college instructors and K-12 teachers in pedagogy, observational assessment, educational measurement, and data-based instruction. She is a Board Certified Behavior Analyst-Doctoral Level (BCBA-D). She is also on the graduate faculty in the College of Education at Texas Tech and teaches master’s level courses in Applied Behavior Analysis.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4" hidden>
+                <div class="speaker"> <img class="thumbnail-circle" src="assets/mock_demo/man-people-pngrepo-com.png" alt="Professor Soo-Young Lee">
+                    <h3>Jianlan Wang</h3>
+                    <h4>Principal Investigator </h4>
+                    <h5>Dr. Wang is an assistant professor in the Department of Teacher Education at Texas Tech University. Dr. Wang has rich experience in designing, implementing, and researching inquiry-based and argumentation-leveraged science units from K to 8 and physics units from 9 to college. He has taught inquiry-oriented physics courses in both high school (AP physics) and college (introductory calculus-based physics). His work also involves reforming instructional methods courses for elementary and secondary science teacher candidates through the constructivist approach. Dr. Wang is skilled in both qualitative and quantitative research methods. His research foci at Texas Tech University include designing and evaluating a scaffolding approach to the knowledge construction of teacher candidates and building models of different kinds (e.g. hierarchical linear model) that connect the variables of educational reforms, teacher knowledge, teacher practice, and student performance.</h5>
+                </div>
+            </div>
+            <div class="col-sm-4" style="display: contents;">
+                <div class="speaker"> <img class="thumbnail-circle" src="assets/mock_demo/man-people-pngrepo-com.png" alt="Professor Soo-Young Lee">
+                    <h3>Kyle Wipfli</h3>
+                    <h4>Graduate Research Assistant</h4>
+                    <h5 style="width: 33.333%; display: inline-flex;">Kyle is a graduate student in the College of Arts and Sciences at Texas Tech University working on a PhD in Physics focusing on Physics Education Research. He graduated from the University of Tulsa earning a B.S. in Physics and a B.A. in Chinese Studies in 2018. He is interested in methodologies used in the physics classroom and how it can apply to graduate and upper-level undergraduate courses.</h5>
+                </div>
+            </div>
+            <div class="col-sm-4" hidden>
+                <div class="speaker"> <img class="thumbnail-circle" src="assets/mock_demo/man-people-pngrepo-com.png" alt="Professor Soo-Young Lee">
+                    <h3>Jianlan Wang</h3>
+                    <h4>Co-Principal Investigator</h4> 
+                    <h5>Dr. Hart is the Director of the TTU OnRamps program, a dual enrollment initiative that gives high school students the opportunity to earn college credits in STEM courses. The OnRamps program trains teachers to implement inquiry-based instruction, peer instruction, and student-centered learning with college content in a high school classroom. Her background is in behavioral science and teacher education. Dr. Hart specializes in coaching college instructors and K-12 teachers in pedagogy, observational assessment, educational measurement, and data-based instruction. She is a Board Certified Behavior Analyst-Doctoral Level (BCBA-D). She is also on the graduate faculty in the College of Education at Texas Tech and teaches master’s level courses in Applied Behavior Analysis.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="sponsors-organizers" class="container-fluid text-center max-width">
+        <div class="text-center">
+            <h2 class="sponsors">Sponsors</h2>
+        </div>
+        <div class="row text-center slideanim">
+            <div class="col-sm-6">
+                <div class="sponsor-logo"> <a href="https://www.nsf.gov/" target="_blank"> <img src="assets/mock_demo/nsf-with-detail.png" alt="NSF"> </a></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="sponsor-logo"> <a href="https://www.depts.ttu.edu/education/" target="_blank"> <img src="assets/mock_demo/TTU_DblT_CoE_c4C.png" alt="NSF"> </a></div>
+            </div>
+            <div class="col-sm-4" hidden>
+                <div class="sponsor-logo"> <a href="https://www.ibm.com/th-en/" target="_blank"> <img src="assets/mock_demo/doubleT.gif" alt="IBM"> </a></div>
+            </div>
+        </div>
+        <div class="row text-center slideanim" hidden>
+            <div class="col-sm-6">
+                <div class="sponsor-logo"> <a href="http://www.ktb.co.th/en" target="_blank"><img src="assets/mock_demo/doubleT.gif" alt="KTB"></a></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="sponsor-logo"> <a href="https://www.deepgenomics.com/" target="_blank"><img src="assets/mock_demo/doubleT.gif" alt="Deep Genomics"></a></div>
+            </div>
+        </div>
+       
+    </div>
+    <div id="location" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="location-school">Location</h2>
+                <h4 class="location-school-info">Texas Tech University
+                    <br>2500 Broadway Lubbock, Texas 79409<br></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 location-container">
+                <iframe width="100%" height="100%" frameborder="0" style="border: 0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d830.9527108602603!2d-101.87882937080325!3d33.58426021603459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c413f31ec847%3A0x52db374b7b07849!2sTexas%20Tech%20University!5e0!3m2!1sen!2sus!4v1583752690421!5m2!1sen!2sus"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <h2 class="location-school">KMUTT MAP</h2>
+        </div>
+        <div class="col-sm-12 location-container"><img src="assets/images/location/campus_map.png" width="100%"></div>
+        <div class="row text-center"><a href="assets/images/location/campus_map.png" download>Download</a></div> -->
+    </div>
+
+
+  </div>
+
+
+
+
+
+    <footer id="footer" class="container-fluid text-center">
+        <h2>CONTACT US</h2><br>
+        <div class="contact-us-info">
+            <div class="row contact-email">
+                <h3><i class="fa fa-envelope"></i> : <a href="mailto:PCK.Q.NSF@gmail.com">PCK.Q.NSF@gmail.com</a></h3>
+            </div>
+        </div>
+        <div class="copyright">© Copyright 2020 All Rights Reserved.</div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+    <script src="js/app.js" defer></script>
     <script src="js/video.js" defer></script>
-  </body>
+    <script src="js/main_search.js" defer></script>
+</body>
+
 </html>
