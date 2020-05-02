@@ -231,7 +231,11 @@ function displayMatches(e) {
     contentPage.innerHTML = page;
     // console.log("After search");
   } else {
-    showList();
+    contentPage.innerHTML = `<h3 style="
+                                  position: relative;
+                                  margin: 30px auto;
+                                  text-align: center;
+                              ">Your Search Did Not Match Any Documents</h3>`;
     // console.log("NEWWWW");
   }
 }
