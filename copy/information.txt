@@ -1,0 +1,15 @@
+GMAIL
+Email: PCK.Q.NSF@gmail.com
+PWD: ScienceRocks2020
+
+
+Shorten link
+u: pckq1
+P: pck-q*bitly@1
+
+
+DOMAIN
+--> use gmail above
+
+HOSTING
+--> You might need to create your own github account and host all the code probided here.
