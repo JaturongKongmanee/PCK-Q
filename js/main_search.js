@@ -1,21 +1,17 @@
 const sections = {
   intro: {
     title: "project introduction",
-    detail:
-      "We propose the first stage of a program of research aiming to improve the training of Student Assistants (SA), which are composed of graduate teaching assistants and undergraduate learning assistants, in the context of inquiry-based introductory physics classes. In stage one, which consists of three phases, we will design and validate an instrument to measure SAs’ Pedagogical Content Knowledge of questioning (PCK-Q) and then develop hierarchical linear models (HLM) to comprehensively describe the influence of SAs’ PCK-Q on college students’ conceptual understanding of physics and critical thinking skills. The project will also yield qualitative data suggesting effective strategies for SA training and SA-student interaction in an inquiry-oriented setting. In the first phase, we will examine SAs’ questions that stimulate active interaction or productive learning of students. In the first phase, we will capture videos of SAs interacting with students during classes of classic mechanics and electromagnetism. From the videos, we will identify scenarios where SAs either manage or fail to initiate active responses from students with questions, such as those expose student misconception or prompt ideas about lab design. Then we will convert some scenarios into open-ended questions as the first version of the PCK-Q test. In the second phase, we will administer PCK-Q Version 1 validated from Phase 1 with SAs and use their answers to develop options with which we will transform the open-ended into multiple-choice questions. The validated multiple-choice questions comprise the second version of the PCK-Q test. The process of developing and validating both versions of the PCK-Q test will also yield qualitative data that contribute to the assessment and adjustment of SA training strategies. In the third phase, we will use PCK-Q Version 2 to measure SAs’ PCK-Q and build HLMs how SAs’ PCK-Q account for college students’ conceptual understanding of introductory physics and critical thinking skills. Intellectual Merit. Reform in the teaching of college-level introductory physics has promoted a shift from lecturing and factual recitation to interactive learning and conceptual understanding, as embodied in the “inquiry method.” Increasing enrollment in physics (and other STEM) classes requires the services of large numbers of SAs. There is some evidence that SA programs promote student learning, but no understanding of the mechanism of this connection. It is assumed that SA programs aid in improving student thinking, but we lack evidence to support this assumption, or any determination of how this transfer occurs. We believe that SAs knowledge of PCK-Q is at the heart of what makes for successful SA support. Specifically, we hypothesize that SAs’ sophisticated levels of PCK-Q will enable them to improve their abilities to prompt student thinking and scaffold group interaction in inquiry-based classrooms. PCK and the training of SA are not new concepts. What is innovative about our approach is 1) developing both the open-ended and multiple-choice versions of an instrument that can validly and reliably assess SAs’ PCK-Q; and 2) building hierarchical linear models that contribute to a comprehensive understanding of the role of SAs’ PCK-Q in college students’ physics learning. Our proposed study will benefit the field of undergraduate physics instruction by adding new insights into how SAs may best serve student learning in introductory physics classrooms. Long-term benefits include increased efficiency and lower costs of physics education, and adaptions for use in other STEM fields. Broader Impacts. The proposed research will initially benefit physics instruction at Texas Tech University. The products from this research will be made available to physics instructors across the country, and the instrument can be modified for use in other STEM disciplines. A common strategy in universities nationwide is to decrease costs by using SAs to assist in providing STEM instruction. By monitoring the quality of SAs through our PCK-Q instrument, we have the potential to better prepare SAs to act as instructional leads in inquiry-based classrooms and enhance college-level physics and other STEM education throughout the United States.",
+    detail: `<h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">We propose the first stage of a program of research aiming to improve the training of Student Assistants (SA), which are composed of graduate teaching assistants and undergraduate learning assistants, in the context of inquiry-based introductory physics classes. In stage one, which consists of three phases, we will design and validate an instrument to measure SAs’ Pedagogical Content Knowledge of questioning (PCK-Q) and then develop hierarchical linear models (HLM) to comprehensively describe the influence of SAs’ PCK-Q on college students’ conceptual understanding of physics and critical thinking skills. The project will also yield qualitative data suggesting effective strategies for SA training and SA-student interaction in an inquiry-oriented setting. </h4>
+    <h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">In the first phase, we will examine SAs’ questions that stimulate active interaction or productive learning of students. In the first phase, we will capture videos of SAs interacting with students during classes of classic mechanics and electromagnetism. From the videos, we will identify scenarios where SAs either manage or fail to initiate active responses from students with questions, such as those expose student misconception or prompt ideas about lab design. Then we will convert some scenarios into open-ended questions as the first version of the PCK-Q test. In the second phase, we will administer PCK-Q Version 1 validated from Phase 1 with SAs and use their answers to develop options with which we will transform the open-ended into multiple-choice questions. The validated multiple-choice questions comprise the second version of the PCK-Q test. The process of developing and validating both versions of the PCK-Q test will also yield qualitative data that contribute to the assessment and adjustment of SA training strategies. In the third phase, we will use PCK-Q Version 2 to measure SAs’ PCK-Q and build HLMs how SAs’ PCK-Q account for college students’ conceptual understanding of introductory physics and critical thinking skills.</h4>  
+    <h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">Reform in the teaching of college-level introductory physics has promoted a shift from lecturing and factual recitation to interactive learning and conceptual understanding, as embodied in the “inquiry method.” Increasing enrollment in physics (and other STEM) classes requires the services of large numbers of SAs. There is some evidence that SA programs promote student learning, but no understanding of the mechanism of this connection. It is assumed that SA programs aid in improving student thinking, but we lack evidence to support this assumption, or any determination of how this transfer occurs. We believe that SAs knowledge of PCK-Q is at the heart of what makes for successful SA support. Specifically, we hypothesize that SAs’ sophisticated levels of PCK-Q will enable them to improve their abilities to prompt student thinking and scaffold group interaction in inquiry-based classrooms. PCK and the training of SA are not new concepts. What is innovative about our approach is 1) developing both the open-ended and multiple-choice versions of an instrument that can validly and reliably assess SAs’ PCK-Q; and 2) building hierarchical linear models that contribute to a comprehensive understanding of the role of SAs’ PCK-Q in college students’ physics learning. Our proposed study will benefit the field of undergraduate physics instruction by adding new insights into how SAs may best serve student learning in introductory physics classrooms. Long-term benefits include increased efficiency and lower costs of physics education, and adaptions for use in other STEM fields.</h4>
+    <h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">The proposed research will initially benefit physics instruction at Texas Tech University. The products from this research will be made available to physics instructors across the country, and the instrument can be modified for use in other STEM disciplines. A common strategy in universities nationwide is to decrease costs by using SAs to assist in providing STEM instruction. By monitoring the quality of SAs through our PCK-Q instrument, we have the potential to better prepare SAs to act as instructional leads in inquiry-based classrooms and enhance college-level physics and other STEM education throughout the United States.</h4>`,
   },
   video: {
     title: "demo videos",
     details: [
       {
-        url: "https://cloud.swivl.com/i/90d2aba6ef293b88b8f9438f7c1fcc71",
-        desc:
-          "We propose the first stage of a program of research aiming to improve the training of Student Assistants (SA), which are composed of graduate teaching assistants and undergraduate learning assistants, in the context of inquiry-based introductory physics classes.",
-      },
-      {
-        url: "https://cloud.swivl.com/i/90d2aba6ef293b88b8f9438f7c1fcc71",
-        desc:
-          "We propose the first stage of a program of research aiming to improve the training of Student Assistants (SA), which are composed of graduate teaching assistants and undergraduate learning assistants, in the context of inquiry-based introductory physics classes.",
+        url: "https://www.youtube.com/embed/yD9AO4PzE_0",
+        desc: "",
       },
     ],
   },
@@ -25,24 +21,28 @@ const sections = {
       {
         name: "Jianlan Wang",
         position: "Principal Investigator",
+        photo: "assets/mock_demo/jay.png",
         bio:
           "Dr. Wang is an assistant professor in the Department of Teacher Education at Texas Tech University. Dr. Wang has rich experience in designing, implementing, and researching inquiry-based and argumentation-leveraged science units from K to 8 and physics units from 9 to college. He has taught inquiry-oriented physics courses in both high school (AP physics) and college (introductory calculus-based physics). His work also involves reforming instructional methods courses for elementary and secondary science teacher candidates through the constructivist approach. Dr. Wang is skilled in both qualitative and quantitative research methods. His research foci at Texas Tech University include designing and evaluating a scaffolding approach to the knowledge construction of teacher candidates and building models of different kinds (e.g. hierarchical linear model) that connect the variables of educational reforms, teacher knowledge, teacher practice, and student performance.",
       },
       {
         name: "Beth Thacker",
         position: "Co-Principal Investigator",
+        photo: "assets/mock_demo/Thacker.png",
         bio:
           "Dr. Thacker is an Associate Professor of Physics. She has most recently been working on course and curriculum development and assessment. She has developed a laboratory-based, inquiry-based curriculum (INQ) taught using Socratic questioning pedagogy and has done significant work investigating students’ qualitative and quantitative understanding of physics concepts in courses taught by traditional and non-traditional methods. She is presently working on the expansion of the INQ course to a larger classroom, including training of student assistants (SAs), and research on SA’s pedagogical content knowledge of questioning (PCK-Q), as well as a study of the thinking skills of INQ students. She is also researching the effectiveness of Augmented Reality (AR) on increasing students understanding of magnetism through 3-D visualization of magnetic fields enhanced by a 3-D AR interactive simulation. In addition, she has studied students understanding of topics in modern physics and quantum mechanics and has a recent interest in quantum computing.",
       },
       {
         name: "Stephanie Hart",
         position: "Co-Principal Investigator",
+        photo: "assets/mock_demo/Hart.png",
         bio:
           "Dr. Hart is the Director of the TTU OnRamps program, a dual enrollment initiative that gives high school students the opportunity to earn college credits in STEM courses. The OnRamps program trains teachers to implement inquiry-based instruction, peer instruction, and student-centered learning with college content in a high school classroom. Her background is in behavioral science and teacher education. Dr. Hart specializes in coaching college instructors and K-12 teachers in pedagogy, observational assessment, educational measurement, and data-based instruction. She is a Board Certified Behavior Analyst-Doctoral Level (BCBA-D). She is also on the graduate faculty in the College of Education at Texas Tech and teaches master’s level courses in Applied Behavior Analysis.",
       },
       {
         name: "Kyle Wipfli",
         position: "Graduate Research Assistant",
+        photo: "assets/mock_demo/Kyle.png",
         bio:
           "Kyle is a graduate student in the College of Arts and Sciences at Texas Tech University working on a PhD in Physics focusing on Physics Education Research. He graduated from the University of Tulsa earning a B.S. in Physics and a B.A. in Chinese Studies in 2018. He is interested in methodologies used in the physics classroom and how it can apply to graduate and upper-level undergraduate courses.",
       },
@@ -117,6 +117,7 @@ function findArrayMatches(wordToMatch, arr, section) {
             regex,
             `<span class="hl">${wordToMatch}</span>`
           ),
+          photo: item.photo,
         };
       case "sponsor":
         return {
@@ -257,7 +258,7 @@ function renderVideo(video) {
     .map((item) => {
       return `<div class="row">
             <div id="overlay" class="video-container">
-              <div class="overlay-pwd stack-top" id="overlay-pwd">
+              <div class="overlay-pwd stack-top" id="overlay-pwd" hidden>
                 <div class="overlay-pwd-protected-name">PCK-Q</div>
                 <div class="overlay-pwd-protected-wrap">
                   <div class="overlay-pwd-protected-text">
@@ -300,7 +301,7 @@ function renderVideo(video) {
                 font-size: 20px;
                 font-weight: bold;
                 margin-top: 10px;
-            ">Description</div>
+            " hidden>Description</div>
             <span style="
               display: inline-block;
               text-align: justify;
@@ -334,7 +335,7 @@ function renderTeam(team) {
   const peoppleList = team.people
     .map((item) => {
       return `<div class="col-sm-6">
-              <div class="speaker"> <img class="thumbnail-circle" src="assets/mock_demo/man-people-pngrepo-com.png" alt="Professor Soo-Young Lee">
+              <div class="speaker"> <img class="thumbnail-circle" src=${item.photo} alt="">
                   <h3>${item.name}</h3>
                   <h4>${item.position}</h4>
                   <h5>${item.bio}</h5>
@@ -411,6 +412,6 @@ function showList() {
 const serachInput = document.querySelector(".search");
 const contentPage = document.querySelector(".content");
 
-serachInput.addEventListener("change", displayMatches);
+//serachInput.addEventListener("change", displayMatches);
 serachInput.addEventListener("keyup", displayMatches);
 showList();
