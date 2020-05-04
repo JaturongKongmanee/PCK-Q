@@ -15,16 +15,13 @@ const publications = [
 
 function findMatches(wordToMatch, publications) {
   return publications.filter((item) => {
-    // console.log(item);
     const regex = new RegExp(wordToMatch, "gi");
     return item.title.match(regex);
   });
 }
 
 function displayMatches(e) {
-  //   console.log(e.which, e.key, e.code);
   if (e.which === 13 || e.key == "Enter" || e.code == "Enter") {
-    // console.log("test");
     e.preventDefault();
     return false;
   }
