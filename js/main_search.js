@@ -75,7 +75,7 @@ const pageContent = {
   pages: [
     {
       title: "SAMPLE PCK-Q QUESTIONS",
-      url: "https://www.pck-q-ttu.com/pckq.html",
+      url: "https://jaturongkongmanee.github.io/PCK-Q/question.html",
       detail:
         "Preliminary open-ended PCK-Q questionSAMPLE PCK-Q QUESTIONS PCK-CM-1Context: Students are conducting a lab about free falling. They are required to use a motion detector to draw position vs. time (s-t),velocity vs. time (v-t), and acceleration vs. time (a-t) graphs of the free falling of three different objects, a book, a small basketball, and a box. The motion detector is held above the objects, facing downward. Moving away from the detector is recorded as the positive direction. She wants to check whether the students understand the relationship between s-t, v-t, and a-t graphs. Below is the conversation she has with themSA: What does the position graph tell you?S: It hit the ground and stopped.SA: OK. Does the velocity graph match the position graph?S: Yes, because it increasesSA: OK. Does the acceleration graph match the velocity graph?S: Yes. If you are increasing at a constant rate, you cannot accelerate. Right?a) What conclusion can you draw about the student’s knowledge based on the information provided above?b) What may be the student’s difficulties? What support or help do you think the student needs from the SA?c) How should the SA respond to the student? Why?",
     },
