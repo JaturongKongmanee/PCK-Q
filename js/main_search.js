@@ -71,6 +71,16 @@ const sections = {
   },
 };
 
+const page_content = {
+  pages: [
+    {
+      title: "",
+      url: "",
+      detail: "",
+    },
+  ],
+};
+
 function findArrayMatches(wordToMatch, arr, section) {
   const regex = new RegExp(wordToMatch, "gi");
   const matchedArray = arr.filter((item) => {
